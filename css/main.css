@@ -1,0 +1,429 @@
+#site {
+  margin: 0 auto;
+  max-width: 1200px;
+
+}
+
+.hidden {
+  display: none;
+}
+
+
+h2 {
+  text-align: center;
+  color: white;
+}
+
+
+#wrapper {
+  min-width: 322px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+
+#socialMedia { 
+  margin: 0 auto;
+  margin-top: 5px;
+  width: 184px;
+  height: 35px;
+  background-color: orange;
+  margin-right: 15px;
+
+}
+
+#socialMedia h2 {
+  padding-top: 10px;
+}
+
+#mainNavigation {
+
+  margin: 0 auto;
+  min-width: 322px;
+  height: 83px;
+  background-color: orange;
+  margin-top: 5px;
+  flex-grow: 1;
+  
+}
+
+#mainNavigation h2 {
+  padding-top: 30px;
+}
+
+#logo {
+  margin: 0 auto;
+  min-width: 322px;
+  height: 349px;
+  background-color: darkorange;
+
+}
+
+#logo h2 {
+  padding-top: 50px;
+}
+
+#welcome {
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  min-width: 300px;
+  height: 230px;
+  background-color: orange;
+    
+}
+
+#welcome h2 {
+  padding-top: 30px;
+}
+
+#icons {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 60px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  
+}
+
+#iconsTwo {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+#icons h2 {
+  padding-top: 50px;
+}
+
+#iconOne {
+  width: 140px;
+  height: 248px;
+  background-color: orange;
+  margin-right: 10px;
+}
+
+#iconTwo {
+  width: 140px;
+  height: 248px;
+  background-color: orange;
+  margin-left: 10px;
+}
+
+#iconThree {
+  margin-top: 40px;
+  width: 140px;
+  height: 248px;
+  background-color: orange;
+  margin-right: 10px;
+
+}
+
+#iconFour {
+  margin-top: 40px;
+  width: 140px;
+  height: 248px;
+  background-color: orange;
+  margin-left: 10px;
+}
+
+#images {
+  margin: 0 auto;
+  width: 300px;
+  margin-bottom: 75px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.image {
+  margin: 0 auto;
+  margin-top: 25px;
+  width: 300px;
+  height: 300px;
+  background-color: orange;
+}
+
+.image h2 {
+  padding-top: 50px;
+}
+
+.imageOne {
+  margin: 0 auto;
+  margin-top: 100px;
+  min-width: 300px;
+  height: 300px;
+  background-color: orange;
+}
+
+.imageOne h2 {
+  padding-top: 50px;
+}
+
+
+.imageTwo {
+  margin: 0 auto;
+  margin-top: 25px;
+  min-width: 300px;
+  height: 300px;
+  background-color: orange;
+}
+
+.imageTwo h2 {
+  padding-top: 50px;
+}
+
+.imageThree {
+  margin: 0 auto;
+  margin-top: 25px;
+  width: 300px;
+  height: 300px;
+  background-color: orange;
+}
+
+.imageThree h2 {
+  padding-top: 50px;
+}
+
+.imageFive {
+  margin: 0 auto;
+  margin-top: 25px;
+  width: 300px;
+  height: 300px;
+  background-color: orange;
+}
+
+.imageFive h2 {
+  padding-top: 50px;
+}
+
+#localBusinesses {
+  margin: 0 auto;
+  margin-top: 110px;
+  width: 300px;
+  height: 50px;
+  background-color: orange;
+}
+
+#localBusinesses h2 {
+  padding-top: 20px;
+}
+
+#partners {
+  margin: 0 auto;
+  width: 300px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+#partners h2 {
+  padding-top: 15px;
+}
+
+
+#partnerOne {
+  width: 140px;
+  height: 53px;
+  background-color: orange;
+  margin-right: 10px;
+}
+
+#partnerTwo {
+  width: 140px;
+  height: 53px;
+  background-color: orange;
+  margin-left: 10px;
+}
+
+
+
+#partnerThree {
+  width: 140px;
+  height: 90px;
+  background-color: orange;
+  margin-right: 10px;
+  margin-top: 30px;
+}
+
+
+#partnerFour {
+  width: 140px;
+  height: 50px;
+  background-color: orange;
+  margin-left: 10px;
+  margin-top: 45px;
+}
+
+
+#partnerFive {
+  width: 140px;
+  height: 50px;
+  background-color: orange;
+  margin-top: 20px;
+  align-items: center;
+
+}
+
+@media only screen and (min-width: 768px) {
+
+  #wrapper {
+    margin: 0 auto;
+    flex: 1 1 768px;
+
+    
+  }
+  #socialMedia {
+    max-width: 630px;
+    height: 35px;
+    margin-right: 15px;
+
+
+    
+  }
+
+  #welcome {
+    margin:30px auto;
+    max-width: 628px;
+    height: 230px;
+    
+  }
+
+  #icons {
+    width: 628px;
+    
+  }
+
+  #iconThree {
+    margin-top: 0;
+    margin-left: 20px;
+  }
+
+  #iconFour {
+    margin-top: 0;
+  }
+
+  .imageOne {
+    width: 623px;
+    height: 305px;
+  }
+  .image {
+    width: 298px;
+    height: 305px;
+  }
+  #images {
+    margin: 0 auto;
+    width: 625px;
+  }
+
+  .imageThree {
+    width: 298px;
+    height: 305px;
+    margin-left: 20px;
+
+  }
+
+  .imageFive {
+    width: 298px;
+    height: 305px;
+    margin-left: 20px;
+  }
+
+  #localBusinesses {
+    width: 623px;
+    height: 50px;
+  }
+
+  #partners {
+    width: 740px;
+  }
+
+  #partnerOne {
+    margin-right: 0;
+    margin-top: 19px;
+  }
+
+  #partnerTwo {
+    margin-left: 0;
+    margin-top: 19px;
+  }
+
+
+  #partnerThree {
+    margin-top: 0px;
+    margin-right: 0;
+  }
+
+  #partnerFour {
+    margin-top: 19px;
+    margin-left: 0;
+  }
+
+  #partnerFive {
+    margin-top: 19px;
+  }
+}
+
+@media only screen and (min-width: 1200px){
+  #wrapper {
+    margin: 0  auto;
+    width: 1200px;
+
+    
+  }
+  #socialMedia {
+    width: 185px;
+    height: 35px;
+    margin-right: 15px;
+
+    
+  }
+
+
+  #welcome {
+    margin:30px auto;
+    max-width: 830px;
+    height: 230px;
+  }
+
+  #icons {
+    justify-content: space-between;
+    width: 950px;
+    
+  }
+
+  #images {
+    margin: 0 auto;
+    width: 950px;
+
+  }
+
+  .imageOne {
+    margin-left: 0px;
+  }
+
+  
+  .imageTwo {
+    height: 305px;
+    margin-top: 100px;
+    margin-right: 0px;
+  }
+
+  .imageThree {
+    margin-left: 0;
+  }
+
+  .imageFive {
+    margin-right: 0;
+  }
+
+  #partners {
+    width: 950px;
+  }
+}
